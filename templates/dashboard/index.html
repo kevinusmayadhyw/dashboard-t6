@@ -1,0 +1,153 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="{% static 'css/dashboard.css' %}" rel="stylesheet" type="text/css" />
+
+    <title>Nutrifood Social</title>
+</head>
+
+<body class="background">
+    <h1 class="title"> Dashboard </h1>
+
+    <h2 class="title-content"> Introduction </h2>
+    <div class="row">
+        <div class="column">
+            <h3 class="title-subcontent">Definition of Terminology</h3>
+            <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt amet non nobis
+                maxime, temporibus aperiam quas cupiditate facilis praesentium ullam id minima odit asperiores illum
+                quibusdam vitae beatae deleniti itaque sed, dolores voluptatum doloribus. Nam facilis impedit, neque
+                consequuntur ad hic, voluptates, distinctio a eum ab dolor. Alias, odio aspernatur.</p>
+        </div>
+        <div class="column">
+            <h3 class="title-subcontent">Objective & Limitation</h3>
+            <ul>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column center">
+            <h3 class=""> Number of Users </h3>
+            <p class="numberof">
+                <svg class="icontext" width="20" height="20" viewBox="0 0 25 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12.5 12.5C16.4453 12.5 19.6429 9.70215 19.6429 6.25C19.6429 2.79785 16.4453 0 12.5 0C8.55469 0 5.35714 2.79785 5.35714 6.25C5.35714 9.70215 8.55469 12.5 12.5 12.5ZM17.5 14.0625H16.5681C15.3292 14.5605 13.9509 14.8438 12.5 14.8438C11.0491 14.8438 9.67634 14.5605 8.43192 14.0625H7.5C3.35937 14.0625 0 17.002 0 20.625V22.6562C0 23.9502 1.19978 25 2.67857 25H22.3214C23.8002 25 25 23.9502 25 22.6562V20.625C25 17.002 21.6406 14.0625 17.5 14.0625Z"
+                        fill="black" />
+                </svg>
+                500
+            </p>
+            <h3 class=""> Number of Department </h3>
+            <p class="numberof">
+                <svg width="20" height="23" viewBox="0 0 20 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M19.4643 21.5625H18.5714V1.07812C18.5714 0.482686 18.0917 0 17.5 0H2.5C1.90826 0 1.42857 0.482686 1.42857 1.07812V21.5625H0.535714C0.239866 21.5625 0 21.8039 0 22.1016V23H20V22.1016C20 21.8039 19.7601 21.5625 19.4643 21.5625ZM5.71429 3.41406C5.71429 3.11637 5.95415 2.875 6.25 2.875H8.03571C8.33156 2.875 8.57143 3.11637 8.57143 3.41406V5.21094C8.57143 5.50863 8.33156 5.75 8.03571 5.75H6.25C5.95415 5.75 5.71429 5.50863 5.71429 5.21094V3.41406ZM5.71429 7.72656C5.71429 7.42887 5.95415 7.1875 6.25 7.1875H8.03571C8.33156 7.1875 8.57143 7.42887 8.57143 7.72656V9.52344C8.57143 9.82113 8.33156 10.0625 8.03571 10.0625H6.25C5.95415 10.0625 5.71429 9.82113 5.71429 9.52344V7.72656ZM8.03571 14.375H6.25C5.95415 14.375 5.71429 14.1336 5.71429 13.8359V12.0391C5.71429 11.7414 5.95415 11.5 6.25 11.5H8.03571C8.33156 11.5 8.57143 11.7414 8.57143 12.0391V13.8359C8.57143 14.1336 8.33156 14.375 8.03571 14.375ZM11.4286 21.5625H8.57143V17.7891C8.57143 17.4914 8.81129 17.25 9.10714 17.25H10.8929C11.1887 17.25 11.4286 17.4914 11.4286 17.7891V21.5625ZM14.2857 13.8359C14.2857 14.1336 14.0458 14.375 13.75 14.375H11.9643C11.6684 14.375 11.4286 14.1336 11.4286 13.8359V12.0391C11.4286 11.7414 11.6684 11.5 11.9643 11.5H13.75C14.0458 11.5 14.2857 11.7414 14.2857 12.0391V13.8359ZM14.2857 9.52344C14.2857 9.82113 14.0458 10.0625 13.75 10.0625H11.9643C11.6684 10.0625 11.4286 9.82113 11.4286 9.52344V7.72656C11.4286 7.42887 11.6684 7.1875 11.9643 7.1875H13.75C14.0458 7.1875 14.2857 7.42887 14.2857 7.72656V9.52344ZM14.2857 5.21094C14.2857 5.50863 14.0458 5.75 13.75 5.75H11.9643C11.6684 5.75 11.4286 5.50863 11.4286 5.21094V3.41406C11.4286 3.11637 11.6684 2.875 11.9643 2.875H13.75C14.0458 2.875 14.2857 3.11637 14.2857 3.41406V5.21094Z"
+                        fill="black" />
+                </svg>
+
+                10
+            </p>
+            <h3 class=""> Number of Division </h3>
+            <p class="numberof">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M17.5 9.02353V16.2501C17.4995 16.4757 17.4383 16.697 17.3228 16.8908C17.2073 17.0846 17.0419 17.2438 16.8438 17.3517C16.6621 17.4518 16.4575 17.503 16.25 17.5001H12.5C12.3343 17.5001 12.1753 17.4342 12.0581 17.317C11.9409 17.1998 11.875 17.0409 11.875 16.8751V13.1251C11.875 12.9593 11.8092 12.8004 11.692 12.6831C11.5747 12.5659 11.4158 12.5001 11.25 12.5001H8.75002C8.58426 12.5001 8.42528 12.5659 8.30807 12.6831C8.19086 12.8004 8.12502 12.9593 8.12502 13.1251V16.8751C8.12502 17.0409 8.05917 17.1998 7.94196 17.317C7.82475 17.4342 7.66578 17.5001 7.50002 17.5001H3.75002C3.57269 17.5008 3.39728 17.4635 3.23557 17.3907C3.07387 17.3179 2.92962 17.2114 2.81252 17.0782C2.60931 16.8381 2.49849 16.5334 2.50002 16.2188V9.02353C2.50007 8.85009 2.53622 8.67856 2.60616 8.51985C2.6761 8.36114 2.7783 8.21872 2.90627 8.10165L9.15627 2.42197C9.3867 2.21115 9.6877 2.09424 10 2.09424C10.3123 2.09424 10.6133 2.21115 10.8438 2.42197L17.0938 8.10165C17.2217 8.21872 17.3239 8.36114 17.3939 8.51985C17.4638 8.67856 17.5 8.85009 17.5 9.02353Z"
+                        fill="black" />
+                </svg>
+                50
+            </p>
+        </div>
+    </div>
+
+    <h2 class="title-content"> Usage Activity </h2>
+    <div class="row">
+        <div class="column">
+            <h3 class="title-subcontent"> Active User Per User Claimed </h3>
+            <div class="circle-wrap">
+                <div class="circle">
+                    <div class="mask half">
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <div class="inside-circle"> 250 </div>
+            </div>
+            <p class="center">Total point made today</p>
+            <p class="center">100</p>
+            <div class="row">
+                <div class="column">
+                    <h3 class="title-subcontent">Last Week</h3>
+                    <p class="center">1000</p>
+                </div>
+                <div class="column">
+                    <h3 class="title-subcontent">Yesterday</h3>
+                    <p class="center">150</p>
+                </div>
+                <div class="column">
+                    <h3 class="title-subcontent">Target this week</h3>
+                    <p class="center">1250</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="title-content"> Top 5 User </h2>
+    <div class="row">
+        <div class="column">
+            <table class="table-border center-margin" style="width:90%; margin-top: 1rem; margin-bottom: 1rem;">
+                <tr>
+                    <th class="table-border">No</th>
+                    <th class="table-border">Full Name</th>
+                    <th class="table-border">Department</th>
+                    <th class="table-border">Division</th>
+                    <th class="table-border">Point</th>
+                </tr>
+                <tr>
+                    <th class="table-border">1</th>
+                    <td class="table-border">Abdul Murhandiasyah</td>
+                    <td class="table-border">Marketing</td>
+                    <td class="table-border">Area Marketing division</td>
+                    <td class="table-border">200</td>
+                </tr>
+                <tr>
+                    <th class="table-border">2</th>
+                    <td class="table-border">Abdul Murhandiasyah</td>
+                    <td class="table-border">Marketing</td>
+                    <td class="table-border">Area Marketing division</td>
+                    <td class="table-border">200</td>
+                </tr>
+                <tr>
+                    <th class="table-border">3</th>
+                    <td class="table-border">Abdul Murhandiasyah</td>
+                    <td class="table-border">Marketing</td>
+                    <td class="table-border">Area Marketing division</td>
+                    <td class="table-border">200</td>
+                </tr>
+                <tr>
+                    <th class="table-border">4</th>
+                    <td class="table-border">Abdul Murhandiasyah</td>
+                    <td class="table-border">Marketing</td>
+                    <td class="table-border">Area Marketing division</td>
+                    <td class="table-border">200</td>
+                </tr>
+                <tr>
+                    <th class="table-border">5</th>
+                    <td class="table-border">Abdul Murhandiasyah</td>
+                    <td class="table-border">Marketing</td>
+                    <td class="table-border">Area Marketing division</td>
+                    <td class="table-border">200</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>
